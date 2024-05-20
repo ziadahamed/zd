@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div class="bg-container">
+        <h1 class="head">Todo List</h1>
+    </div>
+
+    <div class="con">
+        <div class="bg">
+        <h2 class="head1">Todolist</h2>
+        <h5 class="head2">ziad ahamed </h5>
+        <p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium dolores consectetur maiores voluptatem dignissimos architecto nostrum mollitia libero sequi voluptate ad delectus, sed cum quae explicabo veritatis! Mollitia, obcaecati natus.</p>
+        <button class="but" onclick="deletebook(event)">delete</button>
+    </div>
+</div>
+
+
+    <div class="popup-over" id="popup-over">
+        <div class="popup" id="popup">
+            <h2>add Book</h2>
+            <form>
+                <input type="text" placeholder="Book Title" id="booktitle">
+                <input type="text" placeholder="Book Author" id="bookauthor">
+                <textarea placeholder="short description" id="bookdescription"></textarea> 
+                <button id="add">Add</button>
+                <button id="cancel">cancel</button>
+            </form>
+        </div>
+
+    </div>
+
+  
+        <button class="bt" id="btn">+</button>
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
